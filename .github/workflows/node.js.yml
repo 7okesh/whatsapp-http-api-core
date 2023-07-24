@@ -28,5 +28,5 @@ jobs:
         run: |
           # Replace the commands below with your actual deployment commands
           # For example, if you use SSH to deploy to your server
-          ssh https://github.com/7okesh/whatsapp-http-api-core/actions 'https://github.com/7okesh/whatsapp-http-api-core && git pull && npm install && pm2 start dist/main.js'
+          ssh localhost:3000 'https://github.com/7okesh/whatsapp-http-api-core && git pull && npm install && pm2 start dist/main.js'
 
